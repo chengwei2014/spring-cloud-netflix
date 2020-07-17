@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="order-service-api" />
+        <module name="order-service-provider" />
+        <module name="spring-cloud-config-server-9091" />
+        <module name="spring-cloud-eureka-server-9090" />
+        <module name="user-service-api" />
+        <module name="user-service-provider" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8">
+      <module name="spring-cloud-user-service-8081" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="order-service-provider" options="" />
+      <module name="spring-cloud-config-server-9091" options="" />
+      <module name="spring-cloud-eureka-server-9090" options="" />
+      <module name="user-service-provider" options="" />
+    </option>
+  </component>
+</project>
