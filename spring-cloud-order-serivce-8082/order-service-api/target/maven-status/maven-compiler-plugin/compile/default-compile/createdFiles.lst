@@ -1,0 +1,5 @@
+com\springcloud\App.class
+com\springcloud\clients\OrderServiceFeignClient.class
+com\springcloud\OrderService.class
+com\springcloud\clients\OrderServiceFeignClient$OrderServiceFeignClientFallback.class
+com\springcloud\dto\OrderDto.class
