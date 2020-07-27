@@ -13,6 +13,7 @@
         <option value="$PROJECT_DIR$/spring-cloud-user-service-8081/user-service-provider/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud-order-serivce-8082/order-service-provider/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud-hystrix-dashboard-9092/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-gateway-8080/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
