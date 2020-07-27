@@ -13,6 +13,7 @@
     <ignored path="$PROJECT_DIR$/spring-cloud-order-serivce-8082/order-service-api/target/" />
     <ignored path="$PROJECT_DIR$/spring-cloud-order-serivce-8082/order-service-provider/target/" />
     <ignored path="$PROJECT_DIR$/spring-cloud-hystrix-dashboard-9092/target/" />
+    <ignored path="$PROJECT_DIR$/spring-cloud-gateway-8080/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,216 +26,94 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/hystrix/hystrix-javanica/1.5.18/hystrix-javanica-1.5.18.jar!/com/netflix/hystrix/contrib/javanica/aop/aspectj/HystrixCommandAspect.class">
+        <entry file="file://$PROJECT_DIR$/spring-cloud-gateway-8080/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="49">
-              <caret line="70" column="30" lean-forward="true" selection-start-line="70" selection-start-column="30" selection-end-line="70" selection-end-column="30" />
+            <state relative-caret-position="100">
+              <caret line="25" column="25" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-cloud-user-service-8081/user-service-provider/src/main/java/com/springcloud/customHystrix/service/HystrixCommanService.java">
+        <entry file="file://$PROJECT_DIR$/spring-cloud-gateway-8080/src/main/java/com/springcloud/custom/RedisRouteDefinitionRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+            <state relative-caret-position="81">
+              <caret line="25" column="56" lean-forward="true" selection-start-line="25" selection-start-column="56" selection-end-line="25" selection-end-column="56" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-gateway-core/2.2.3.RELEASE/spring-cloud-gateway-core-2.2.3.RELEASE.jar!/org/springframework/cloud/gateway/actuate/GatewayControllerEndpoint.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="32" column="66" selection-start-line="32" selection-start-column="66" selection-end-line="32" selection-end-column="66" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-gateway-core/2.2.3.RELEASE/spring-cloud-gateway-core-2.2.3.RELEASE.jar!/org/springframework/cloud/gateway/actuate/AbstractGatewayControllerEndpoint.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="43" column="32" selection-start-line="43" selection-start-column="32" selection-end-line="43" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-gateway-core/2.2.3.RELEASE/spring-cloud-gateway-core-2.2.3.RELEASE.jar!/org/springframework/cloud/gateway/route/RouteDefinitionWriter.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-gateway-core/2.2.3.RELEASE/spring-cloud-gateway-core-2.2.3.RELEASE.jar!/org/springframework/cloud/gateway/route/InMemoryRouteDefinitionRepository.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-cloud-gateway-8080/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="37" column="8" selection-start-line="37" selection-start-column="8" selection-end-line="40" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spring-cloud-user-service-8081/user-service-provider/src/main/java/com/springcloud/rxjava/RxJavaDemo.java">
+        <entry file="file://$PROJECT_DIR$/spring-cloud-gateway-8080/src/main/java/com/springcloud/springcloudgateway8080/SpringCloudGateway8080Application.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="113">
-              <caret line="24" column="13" lean-forward="true" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1036#1037#0" expanded="true" />
-                <element signature="e#1110#1111#0" expanded="true" />
-                <element signature="e#1188#1189#0" expanded="true" />
-                <element signature="e#1258#1259#0" expanded="true" />
-                <element signature="e#1324#1325#0" expanded="true" />
-                <element signature="e#1398#1399#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="132">
+              <caret line="8" column="48" lean-forward="true" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/hystrix/hystrix-core/1.5.18/hystrix-core-1.5.18.jar!/com/netflix/hystrix/HystrixCommand.class">
+        <entry file="file://$PROJECT_DIR$/spring-cloud-eureka-server-9090/src/main/java/com/springcloud/springcloudeurekaserver9090/SpringCloudEurekaServer9090Application.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="71" column="64" selection-start-line="71" selection-start-column="64" selection-end-line="71" selection-end-column="64" />
+            <state relative-caret-position="176">
+              <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/hystrix/hystrix-javanica/1.5.18/hystrix-javanica-1.5.18.jar!/com/netflix/hystrix/contrib/javanica/command/GenericCommand.class">
+        <entry file="file://$PROJECT_DIR$/spring-cloud-config-server-9091/src/main/java/com/springcloud/springcloudconfigserver/SpringCloudConfigServer9091Application.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="43">
-              <caret line="17" column="66" selection-start-line="17" selection-start-column="66" selection-end-line="17" selection-end-column="66" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="uml://JAVA/com.netflix.hystrix.contrib.javanica.command.GenericCommand">
-          <provider selected="true" editor-type-id="UmlEditorProvider">
-            <state>
-              <ID>JAVA</ID>
-              <OriginalElement>com.netflix.hystrix.contrib.javanica.command.GenericCommand</OriginalElement>
-              <nodes>
-                <node x="194.99999999999994" y="243.0">com.netflix.hystrix.HystrixCommand</node>
-                <node x="211.99999999999997" y="81.0">com.netflix.hystrix.HystrixObservable</node>
-                <node x="73.24999999999994" y="324.0">com.netflix.hystrix.contrib.javanica.command.AbstractHystrixCommand</node>
-                <node x="170.99999999999997" y="405.0">com.netflix.hystrix.contrib.javanica.command.BatchHystrixCommand</node>
-                <node x="0.0" y="405.0">com.netflix.hystrix.contrib.javanica.command.GenericCommand</node>
-                <node x="26.99999999999997" y="81.0">com.netflix.hystrix.HystrixInvokableInfo</node>
-                <node x="122.49999999999994" y="162.0">com.netflix.hystrix.AbstractCommand</node>
-                <node x="385.0" y="81.0">com.netflix.hystrix.HystrixExecutable</node>
-                <node x="304.625" y="0.0">com.netflix.hystrix.HystrixInvokable</node>
-                <node x="289.24999999999994" y="324.0">org.springframework.cloud.openfeign.support.FallbackCommand</node>
-              </nodes>
-              <notes />
-              <edges>
-                <edge source="com.netflix.hystrix.HystrixCommand" target="com.netflix.hystrix.HystrixExecutable">
-                  <point x="55.5" y="-15.5" />
-                  <point x="324.49999999999994" y="223.0" />
-                  <point x="460.0" y="223.0" />
-                  <point x="0.0" y="15.5" />
-                </edge>
-                <edge source="com.netflix.hystrix.HystrixCommand" target="com.netflix.hystrix.HystrixInvokableInfo">
-                  <point x="-55.5" y="-15.5" />
-                  <point x="213.49999999999994" y="223.0" />
-                  <point x="86.625" y="223.0" />
-                  <point x="86.625" y="137.0" />
-                  <point x="68.24999999999997" y="137.0" />
-                  <point x="-41.25" y="15.5" />
-                </edge>
-                <edge source="com.netflix.hystrix.AbstractCommand" target="com.netflix.hystrix.HystrixObservable">
-                  <point x="39.00000000000003" y="-15.5" />
-                  <point x="239.49999999999997" y="137.0" />
-                  <point x="250.24999999999997" y="137.0" />
-                  <point x="-38.25" y="15.5" />
-                </edge>
-                <edge source="com.netflix.hystrix.HystrixExecutable" target="com.netflix.hystrix.HystrixInvokable">
-                  <point x="0.0" y="-15.5" />
-                  <point x="460.0" y="56.0" />
-                  <point x="411.875" y="56.0" />
-                  <point x="35.75" y="15.5" />
-                </edge>
-                <edge source="com.netflix.hystrix.HystrixCommand" target="com.netflix.hystrix.HystrixObservable">
-                  <point x="18.5" y="-15.5" />
-                  <point x="287.49999999999994" y="223.0" />
-                  <point x="313.24999999999994" y="223.0" />
-                  <point x="313.24999999999994" y="137.0" />
-                  <point x="326.75" y="137.0" />
-                  <point x="38.25" y="15.5" />
-                </edge>
-                <edge source="com.netflix.hystrix.AbstractCommand" target="com.netflix.hystrix.HystrixInvokableInfo">
-                  <point x="-38.99999999999997" y="-15.5" />
-                  <point x="161.49999999999997" y="137.0" />
-                  <point x="150.74999999999997" y="137.0" />
-                  <point x="41.25" y="15.5" />
-                </edge>
-                <edge source="org.springframework.cloud.openfeign.support.FallbackCommand" target="com.netflix.hystrix.HystrixCommand">
-                  <point x="0.0" y="-15.5" />
-                  <point x="366.74999999999994" y="299.0" />
-                  <point x="305.99999999999994" y="299.0" />
-                  <point x="37.0" y="15.5" />
-                </edge>
-                <edge source="com.netflix.hystrix.HystrixCommand" target="com.netflix.hystrix.AbstractCommand">
-                  <point x="-18.5" y="-15.5" />
-                  <point x="250.49999999999994" y="213.0" />
-                  <point x="200.49999999999994" y="213.0" />
-                  <point x="0.0" y="15.5" />
-                </edge>
-                <edge source="com.netflix.hystrix.HystrixObservable" target="com.netflix.hystrix.HystrixInvokable">
-                  <point x="0.0" y="-15.5" />
-                  <point x="288.5" y="56.0" />
-                  <point x="340.375" y="56.0" />
-                  <point x="-35.75" y="15.5" />
-                </edge>
-                <edge source="com.netflix.hystrix.contrib.javanica.command.BatchHystrixCommand" target="com.netflix.hystrix.contrib.javanica.command.AbstractHystrixCommand">
-                  <point x="0.0" y="-15.5" />
-                  <point x="261.0" y="380.0" />
-                  <point x="220.24999999999994" y="380.0" />
-                  <point x="49.0" y="15.5" />
-                </edge>
-                <edge source="com.netflix.hystrix.contrib.javanica.command.GenericCommand" target="com.netflix.hystrix.contrib.javanica.command.AbstractHystrixCommand">
-                  <point x="0.0" y="-15.5" />
-                  <point x="75.5" y="380.0" />
-                  <point x="122.24999999999994" y="380.0" />
-                  <point x="-49.0" y="15.5" />
-                </edge>
-                <edge source="com.netflix.hystrix.contrib.javanica.command.AbstractHystrixCommand" target="com.netflix.hystrix.HystrixCommand">
-                  <point x="2.8421709430404007E-14" y="-15.5" />
-                  <point x="171.24999999999997" y="299.0" />
-                  <point x="231.99999999999994" y="299.0" />
-                  <point x="-37.0" y="15.5" />
-                </edge>
-              </edges>
-              <settings layout="Hierarchic Group" zoom="1.0" x="-124.5" y="225.0" />
-              <SelectedNodes />
-              <Categories />
-              <SCOPE>All</SCOPE>
-              <VISIBILITY>private</VISIBILITY>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/io/reactivex/rxjava/1.3.8/rxjava-1.3.8.jar!/rx/Observable.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="441" column="36" selection-start-line="441" selection-start-column="36" selection-end-line="441" selection-end-column="36" />
-              <folding>
-                <element signature="e#23411#23412#0" expanded="true" />
-                <element signature="e#23475#23476#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/hystrix/hystrix-core/1.5.18/hystrix-core-1.5.18.jar!/com/netflix/hystrix/AbstractCommand.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="588" column="52" lean-forward="true" selection-start-line="588" selection-start-column="52" selection-end-line="588" selection-end-column="52" />
-              <folding>
-                <element signature="e#65242#65243#0" expanded="true" />
-                <element signature="e#65305#65306#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/hystrix/hystrix-core/1.5.18/hystrix-core-1.5.18.jar!/com/netflix/hystrix/HystrixObservableCommand.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="66" column="34" selection-start-line="66" selection-start-column="34" selection-end-line="66" selection-end-column="34" />
-              <folding>
-                <element signature="e#3152#3153#0" expanded="true" />
-                <element signature="e#3200#3201#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/hystrix/hystrix-core/1.5.18/hystrix-core-1.5.18.jar!/com/netflix/hystrix/HystrixCachedObservable.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="291">
-              <caret line="43" column="25" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
-              <folding>
-                <element signature="e#1590#1591#0" expanded="true" />
-                <element signature="e#1634#1635#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="176">
+              <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -254,16 +133,12 @@
       <find>getprop</find>
       <find>configureEnvironment</find>
       <find>semaphore</find>
+      <find>routeDefinition not found:</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/spring-cloud-config-server/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-cloud-config-server-9091/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/spring-cloud-config-server-9091/src/main/java/com/springcloud/springcloudconfigserver/SpringCloudConfigServer9091Application.java" />
-        <option value="$PROJECT_DIR$/spring-cloud-eureka-server-9090/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-cloud-eureka-server-9090/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/spring-cloud-eureka-server-9090/src/main/java/com/springcloud/springcloudeurekaserver9090/SpringCloudEurekaServer9090Application.java" />
         <option value="$PROJECT_DIR$/spring-cloud-user-service-8081/user-service-api/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud-user-service-8081/user-service-provider/src/main/resources/bootstrap.yml" />
@@ -277,7 +152,6 @@
         <option value="$PROJECT_DIR$/spring-cloud-order-serivce-8082/order-service-provider/src/main/java/com/springcloud/controller/ConfigController.java" />
         <option value="$PROJECT_DIR$/spring-cloud-config-server-9091/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/spring-cloud-config-server-9091/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-cloud-config-server-9091/src/main/java/com/springcloud/springcloudconfigserver/Test.java" />
         <option value="$PROJECT_DIR$/spring-cloud-user-service-8081/user-service-provider/src/main/resources/gupao.json" />
         <option value="$PROJECT_DIR$/spring-cloud-user-service-8081/user-service-provider/src/main/java/com/springcloud/profileDemo/ProfileService.java" />
         <option value="$PROJECT_DIR$/spring-cloud-user-service-8081/user-service-provider/src/main/java/com/springcloud/profileDemo/ProfileConfiguration.java" />
@@ -297,7 +171,6 @@
         <option value="$PROJECT_DIR$/spring-cloud-order-serivce-8082/order-service-provider/src/main/java/com/springcloud/orderserviceprovider/OrederServiceImpl.java" />
         <option value="$PROJECT_DIR$/spring-cloud-hystrix-dashboard-9092/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud-user-service-8081/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud-hystrix-dashboard-9092/src/main/java/com/springcloud/springcloudhystrixdashboard9092/SpringCloudHystrixDashboard9092Application.java" />
         <option value="$PROJECT_DIR$/spring-cloud-hystrix-dashboard-9092/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/spring-cloud-user-service-8081/user-service-provider/src/main/resources/application.yml" />
@@ -308,6 +181,15 @@
         <option value="$PROJECT_DIR$/spring-cloud-user-service-8081/user-service-provider/src/main/java/com/springcloud/customHystrix/service/HystrixCommanService.java" />
         <option value="$PROJECT_DIR$/spring-cloud-user-service-8081/user-service-provider/src/main/java/com/springcloud/controller/GPHystrixController.java" />
         <option value="$PROJECT_DIR$/spring-cloud-user-service-8081/user-service-provider/src/main/java/com/springcloud/rxjava/RxJavaDemo.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-config-server-9091/src/main/java/com/springcloud/springcloudconfigserver/Test.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-gateway-8080/src/main/java/com/springcloud/custom/AuthRoutePredicateFactory.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-gateway-8080/src/main/java/com/springcloud/springcloudgateway8080/SpringCloudGateway8080Application.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-gateway-8080/src/main/java/com/springcloud/custom/GpDefineGatewayFilterFactory.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-gateway-8080/src/main/java/com/springcloud/custom/IpAddressKeyResolver.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-gateway-8080/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/spring-cloud-gateway-8080/src/main/java/com/springcloud/custom/RedisRouteDefinitionRepository.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-gateway-8080/pom.xml" />
       </list>
     </option>
   </component>
@@ -354,6 +236,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -476,63 +360,74 @@
             <path>
               <item name="spring-cloud-netflix" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-netflix" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-hystrix-dashboard-9092" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-gateway-8080" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-cloud-netflix" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-netflix" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-hystrix-dashboard-9092" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-gateway-8080" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-cloud-netflix" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-netflix" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-hystrix-dashboard-9092" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-netflix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-netflix" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-hystrix-dashboard-9092" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-gateway-8080" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-cloud-netflix" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-netflix" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-hystrix-dashboard-9092" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-gateway-8080" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-cloud-netflix" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-netflix" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-hystrix-dashboard-9092" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-gateway-8080" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-cloud-netflix" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-netflix" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-hystrix-dashboard-9092" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-gateway-8080" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloudhystrixdashboard9092" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-cloud-netflix" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-netflix" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-hystrix-dashboard-9092" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-gateway-8080" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="custom" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-netflix" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-netflix" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-gateway-8080" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="springcloudgateway8080" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-netflix" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-netflix" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-gateway-8080" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -609,18 +504,6 @@
               <item name="spring-cloud-netflix" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-netflix" type="462c0819:PsiDirectoryNode" />
               <item name="spring-cloud-order-serivce-8082" type="462c0819:PsiDirectoryNode" />
-              <item name="order-service-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="dto" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-netflix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-netflix" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-order-serivce-8082" type="462c0819:PsiDirectoryNode" />
               <item name="order-service-provider" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -667,18 +550,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="springcloud" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-netflix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-netflix" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-order-serivce-8082" type="462c0819:PsiDirectoryNode" />
-              <item name="order-service-provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-cloud-netflix" type="b2602c69:ProjectViewProjectNode" />
@@ -801,340 +672,27 @@
               <item name="user-service-provider" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="customHystrix" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-netflix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-netflix" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-user-service-8081" type="462c0819:PsiDirectoryNode" />
-              <item name="user-service-provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="rxjava" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-netflix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-netflix" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-user-service-8081" type="462c0819:PsiDirectoryNode" />
-              <item name="user-service-provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="userserviceprovider" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-netflix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-netflix" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-cloud-user-service-8081" type="462c0819:PsiDirectoryNode" />
-              <item name="user-service-provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-cloud-netflix" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
-            <path>
-              <item name="spring-cloud-netflix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-netflix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-netflix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-netflix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="net" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-netflix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-netflix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="sun" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-netflix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="sun" type="462c0819:PsiDirectoryNode" />
-              <item name="net" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-netflix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="sun" type="462c0819:PsiDirectoryNode" />
-              <item name="net" type="462c0819:PsiDirectoryNode" />
-              <item name="www" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-netflix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="sun" type="462c0819:PsiDirectoryNode" />
-              <item name="net" type="462c0819:PsiDirectoryNode" />
-              <item name="www" type="462c0819:PsiDirectoryNode" />
-              <item name="protocol" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-netflix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="sun" type="462c0819:PsiDirectoryNode" />
-              <item name="net" type="462c0819:PsiDirectoryNode" />
-              <item name="www" type="462c0819:PsiDirectoryNode" />
-              <item name="protocol" type="462c0819:PsiDirectoryNode" />
-              <item name="http" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-netflix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.netflix.hystrix:hystrix-core:1.5.18" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-netflix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.netflix.hystrix:hystrix-core:1.5.18" type="70bed36:NamedLibraryElementNode" />
-              <item name="hystrix-core-1.5.18.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-netflix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.netflix.hystrix:hystrix-core:1.5.18" type="70bed36:NamedLibraryElementNode" />
-              <item name="hystrix-core-1.5.18.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-netflix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.netflix.hystrix:hystrix-core:1.5.18" type="70bed36:NamedLibraryElementNode" />
-              <item name="hystrix-core-1.5.18.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="netflix" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-netflix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.netflix.hystrix:hystrix-core:1.5.18" type="70bed36:NamedLibraryElementNode" />
-              <item name="hystrix-core-1.5.18.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="netflix" type="462c0819:PsiDirectoryNode" />
-              <item name="hystrix" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-netflix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.netflix.hystrix:hystrix-javanica:1.5.18" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-netflix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.netflix.hystrix:hystrix-javanica:1.5.18" type="70bed36:NamedLibraryElementNode" />
-              <item name="hystrix-javanica-1.5.18.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-netflix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.netflix.hystrix:hystrix-javanica:1.5.18" type="70bed36:NamedLibraryElementNode" />
-              <item name="hystrix-javanica-1.5.18.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-netflix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.netflix.hystrix:hystrix-javanica:1.5.18" type="70bed36:NamedLibraryElementNode" />
-              <item name="hystrix-javanica-1.5.18.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="netflix" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-netflix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.netflix.hystrix:hystrix-javanica:1.5.18" type="70bed36:NamedLibraryElementNode" />
-              <item name="hystrix-javanica-1.5.18.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="netflix" type="462c0819:PsiDirectoryNode" />
-              <item name="hystrix" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-netflix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.netflix.hystrix:hystrix-javanica:1.5.18" type="70bed36:NamedLibraryElementNode" />
-              <item name="hystrix-javanica-1.5.18.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="netflix" type="462c0819:PsiDirectoryNode" />
-              <item name="hystrix" type="462c0819:PsiDirectoryNode" />
-              <item name="contrib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-netflix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.netflix.hystrix:hystrix-javanica:1.5.18" type="70bed36:NamedLibraryElementNode" />
-              <item name="hystrix-javanica-1.5.18.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="netflix" type="462c0819:PsiDirectoryNode" />
-              <item name="hystrix" type="462c0819:PsiDirectoryNode" />
-              <item name="contrib" type="462c0819:PsiDirectoryNode" />
-              <item name="javanica" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-netflix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.netflix.hystrix:hystrix-javanica:1.5.18" type="70bed36:NamedLibraryElementNode" />
-              <item name="hystrix-javanica-1.5.18.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="netflix" type="462c0819:PsiDirectoryNode" />
-              <item name="hystrix" type="462c0819:PsiDirectoryNode" />
-              <item name="contrib" type="462c0819:PsiDirectoryNode" />
-              <item name="javanica" type="462c0819:PsiDirectoryNode" />
-              <item name="annotation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-netflix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.netflix.hystrix:hystrix-javanica:1.5.18" type="70bed36:NamedLibraryElementNode" />
-              <item name="hystrix-javanica-1.5.18.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="netflix" type="462c0819:PsiDirectoryNode" />
-              <item name="hystrix" type="462c0819:PsiDirectoryNode" />
-              <item name="contrib" type="462c0819:PsiDirectoryNode" />
-              <item name="javanica" type="462c0819:PsiDirectoryNode" />
-              <item name="aop" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-netflix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.netflix.hystrix:hystrix-javanica:1.5.18" type="70bed36:NamedLibraryElementNode" />
-              <item name="hystrix-javanica-1.5.18.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="netflix" type="462c0819:PsiDirectoryNode" />
-              <item name="hystrix" type="462c0819:PsiDirectoryNode" />
-              <item name="contrib" type="462c0819:PsiDirectoryNode" />
-              <item name="javanica" type="462c0819:PsiDirectoryNode" />
-              <item name="aop" type="462c0819:PsiDirectoryNode" />
-              <item name="aspectj" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-netflix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: com.netflix.hystrix:hystrix-javanica:1.5.18" type="70bed36:NamedLibraryElementNode" />
-              <item name="hystrix-javanica-1.5.18.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="netflix" type="462c0819:PsiDirectoryNode" />
-              <item name="hystrix" type="462c0819:PsiDirectoryNode" />
-              <item name="contrib" type="462c0819:PsiDirectoryNode" />
-              <item name="javanica" type="462c0819:PsiDirectoryNode" />
-              <item name="command" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-netflix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.tomcat.embed:tomcat-embed-core:9.0.35" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-netflix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.tomcat.embed:tomcat-embed-core:9.0.35" type="70bed36:NamedLibraryElementNode" />
-              <item name="tomcat-embed-core-9.0.35.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-netflix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.tomcat.embed:tomcat-embed-core:9.0.35" type="70bed36:NamedLibraryElementNode" />
-              <item name="tomcat-embed-core-9.0.35.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-netflix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.tomcat.embed:tomcat-embed-core:9.0.35" type="70bed36:NamedLibraryElementNode" />
-              <item name="tomcat-embed-core-9.0.35.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="apache" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-netflix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.tomcat.embed:tomcat-embed-core:9.0.35" type="70bed36:NamedLibraryElementNode" />
-              <item name="tomcat-embed-core-9.0.35.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="apache" type="462c0819:PsiDirectoryNode" />
-              <item name="tomcat" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-netflix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.tomcat.embed:tomcat-embed-core:9.0.35" type="70bed36:NamedLibraryElementNode" />
-              <item name="tomcat-embed-core-9.0.35.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="apache" type="462c0819:PsiDirectoryNode" />
-              <item name="tomcat" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-netflix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.tomcat.embed:tomcat-embed-core:9.0.35" type="70bed36:NamedLibraryElementNode" />
-              <item name="tomcat-embed-core-9.0.35.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="apache" type="462c0819:PsiDirectoryNode" />
-              <item name="tomcat" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-              <item name="net" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1595400676794" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1595838113740" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -1160,7 +718,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RxJavaDemo">
+  <component name="RunManager" selected="Spring Boot.SpringCloudGateway8080Application">
     <configuration name="ProfileMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.springcloud.profileDemo.ProfileMain" />
       <module name="user-service-provider" />
@@ -1207,6 +765,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OrderServiceProviderApplication8083" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="order-service-provider" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springcloud.orderserviceprovider.OrderServiceProviderApplication" />
+      <option name="VM_PARAMETERS" value="-Dserver.port=8083" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SpringCloudConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="spring-cloud-config-server-9091" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.springcloud.springcloudconfigserver.SpringCloudConfigServer9091Application" />
@@ -1217,6 +784,13 @@
     <configuration name="SpringCloudEurekaServer9090Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="spring-cloud-eureka-server-9090" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.springcloud.springcloudeurekaserver9090.SpringCloudEurekaServer9090Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudGateway8080Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-cloud-gateway-8080" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springcloud.springcloudgateway8080.SpringCloudGateway8080Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -1235,6 +809,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.ProfileMain" />
+      <item itemvalue="Application.RxJavaDemo" />
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Spring Boot.OrderServiceProviderApplication" />
+      <item itemvalue="Spring Boot.OrderServiceProviderApplication8083" />
+      <item itemvalue="Spring Boot.SpringCloudConfigServerApplication" />
+      <item itemvalue="Spring Boot.SpringCloudEurekaServer9090Application" />
+      <item itemvalue="Spring Boot.SpringCloudGateway8080Application" />
+      <item itemvalue="Spring Boot.SpringCloudHystrixDashboard9092Application" />
+      <item itemvalue="Spring Boot.UserServiceProviderApplication" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.RxJavaDemo" />
@@ -1266,12 +852,15 @@
       <workItem from="1595212216850" duration="58000" />
       <workItem from="1595231287678" duration="7087000" />
       <workItem from="1595297588088" duration="4879000" />
-      <workItem from="1595383191343" duration="11640000" />
+      <workItem from="1595383191343" duration="12499000" />
+      <workItem from="1595469741745" duration="2995000" />
+      <workItem from="1595555896234" duration="1390000" />
+      <workItem from="1595815779720" duration="14967000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66984000" />
+    <option name="totallyTimeSpent" value="87195000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1284,10 +873,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49723756" visible="true" weight="0.28698465" />
-      <window_info id="Structure" order="1" sideWeight="0.50276244" side_tool="true" weight="0.26596606" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4962963" visible="true" weight="0.29587713" />
+      <window_info id="Structure" order="1" sideWeight="0.5037037" side_tool="true" weight="0.2918351" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
@@ -1296,8 +884,8 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3314815" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.35185185" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.9444444" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3537037" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32962963" />
@@ -1344,171 +932,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/spring-cloud-user-service-8081/user-service-provider/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-user-service-8081/user-service-provider/src/main/resources/application-dev.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-user-service-8081/user-service-provider/src/main/java/com/springcloud/sourceLoaderr/GPDefineBootStrapConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="13" column="46" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#343#344#0" expanded="true" />
-            <element signature="e#396#397#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-user-service-8081/user-service-provider/src/main/java/com/springcloud/sourceLoaderr/JsonPropertySourceLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="24" column="47" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#424#425#0" expanded="true" />
-            <element signature="e#466#467#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-user-service-8081/user-service-provider/src/main/java/com/springcloud/sourceLoaderr/JsonProperySourceLocator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1672">
-          <caret line="89" selection-start-line="89" selection-end-line="89" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-order-serivce-8082/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-user-service-8081/user-service-provider/src/main/java/com/springcloud/config/RestTemplateConfiguration.java" />
-    <entry file="file://$PROJECT_DIR$/spring-cloud-order-serivce-8082/order-service-api/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-440">
-          <caret line="7" column="39" selection-start-line="6" selection-start-column="7" selection-end-line="7" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-order-serivce-8082/order-service-provider/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="61">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-order-serivce-8082/order-service-provider/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-181" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-order-serivce-8082/order-service-provider/src/main/java/com/springcloud/controller/ConfigController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/hystrix/hystrix-core/1.5.18/hystrix-core-1.5.18.jar!/com/netflix/hystrix/HystrixCommandProperties.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10538">
-          <caret line="534" column="14" selection-start-line="534" selection-start-column="8" selection-end-line="534" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-order-serivce-8082/order-service-api/src/main/java/com/springcloud/dto/OrderDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-order-serivce-8082/order-service-api/src/main/java/com/springcloud/OrderService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-order-serivce-8082/order-service-api/src/main/java/com/springcloud/clients/OrderServiceFeignClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-44">
-          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-order-serivce-8082/order-service-provider/src/main/java/com/springcloud/orderserviceprovider/OrederServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="24" column="39" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-eureka-server-9090/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="19" column="82" selection-start-line="18" selection-start-column="8" selection-end-line="19" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-hystrix-dashboard-9092/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="18" column="82" selection-start-line="18" selection-start-column="82" selection-end-line="18" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-user-service-8081/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="28" column="47" selection-start-line="28" selection-start-column="47" selection-end-line="28" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_162/src.zip!/java/net/SocketInputStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="93" column="23" selection-start-line="93" selection-start-column="23" selection-end-line="93" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.35/tomcat-embed-core-9.0.35.jar!/org/apache/tomcat/util/net/NioEndpoint.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12430">
-          <caret line="668" selection-start-line="668" selection-end-line="668" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-user-service-8081/user-service-provider/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="39" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-hystrix-dashboard-9092/src/main/java/com/springcloud/springcloudhystrixdashboard9092/SpringCloudHystrixDashboard9092Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spring-cloud-hystrix-dashboard-9092/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1523,79 +946,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-user-service-8081/user-service-provider/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
-          <caret line="53" column="39" selection-start-line="53" selection-start-column="39" selection-end-line="53" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-user-service-8081/user-service-provider/src/main/java/com/springcloud/customHystrix/hystrix/GPHystrixCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spring-cloud-user-service-8081/user-service-provider/src/main/java/com/springcloud/controller/ConfigController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="146">
           <caret line="25" column="24" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-eureka-server-9090/src/main/java/com/springcloud/springcloudeurekaserver9090/SpringCloudEurekaServer9090Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="10" column="44" lean-forward="true" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-config-server-9091/src/main/java/com/springcloud/springcloudconfigserver/SpringCloudConfigServer9091Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="10" column="44" lean-forward="true" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-order-serivce-8082/order-service-provider/src/main/java/com/springcloud/orderserviceprovider/OrderServiceProviderApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="10" column="44" lean-forward="true" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
-          <folding>
-            <element signature="e#459#460#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-user-service-8081/user-service-provider/src/main/java/com/springcloud/userserviceprovider/UserServiceProviderApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="16" column="44" lean-forward="true" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-user-service-8081/user-service-provider/src/main/java/com/springcloud/controller/GPHystrixController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="17" column="56" selection-start-line="17" selection-start-column="56" selection-end-line="17" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#488#489#0" expanded="true" />
-            <element signature="e#537#538#0" expanded="true" />
-            <element signature="e#736#737#0" expanded="true" />
-            <element signature="e#767#768#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-user-service-8081/user-service-provider/src/main/java/com/springcloud/controller/HystrixCommandController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1613,16 +967,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="18" column="34" lean-forward="true" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-user-service-8081/user-service-provider/src/main/java/com/springcloud/customHystrix/hystrix/GPHystrixCommandAspect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="45" column="32" lean-forward="true" selection-start-line="45" selection-start-column="32" selection-end-line="45" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1691,10 +1035,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/hystrix/hystrix-core/1.5.18/hystrix-core-1.5.18.jar!/com/netflix/hystrix/HystrixCommand.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/hystrix/hystrix-javanica/1.5.18/hystrix-javanica-1.5.18.jar!/com/netflix/hystrix/contrib/javanica/aop/aspectj/HystrixCommandAspect.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="71" column="64" selection-start-line="71" selection-start-column="64" selection-end-line="71" selection-end-column="64" />
+        <state relative-caret-position="660">
+          <caret line="70" column="30" selection-start-line="70" selection-start-column="30" selection-end-line="70" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-user-service-8081/user-service-provider/src/main/java/com/springcloud/customHystrix/service/HystrixCommanService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1709,9 +1063,9 @@
             <node x="73.24999999999994" y="324.0">com.netflix.hystrix.contrib.javanica.command.AbstractHystrixCommand</node>
             <node x="170.99999999999997" y="405.0">com.netflix.hystrix.contrib.javanica.command.BatchHystrixCommand</node>
             <node x="0.0" y="405.0">com.netflix.hystrix.contrib.javanica.command.GenericCommand</node>
-            <node x="26.99999999999997" y="81.0">com.netflix.hystrix.HystrixInvokableInfo</node>
-            <node x="122.49999999999994" y="162.0">com.netflix.hystrix.AbstractCommand</node>
             <node x="385.0" y="81.0">com.netflix.hystrix.HystrixExecutable</node>
+            <node x="122.49999999999994" y="162.0">com.netflix.hystrix.AbstractCommand</node>
+            <node x="26.99999999999997" y="81.0">com.netflix.hystrix.HystrixInvokableInfo</node>
             <node x="304.625" y="0.0">com.netflix.hystrix.HystrixInvokable</node>
             <node x="289.24999999999994" y="324.0">org.springframework.cloud.openfeign.support.FallbackCommand</node>
           </nodes>
@@ -1723,6 +1077,12 @@
               <point x="460.0" y="223.0" />
               <point x="0.0" y="15.5" />
             </edge>
+            <edge source="com.netflix.hystrix.AbstractCommand" target="com.netflix.hystrix.HystrixObservable">
+              <point x="39.00000000000003" y="-15.5" />
+              <point x="239.49999999999997" y="137.0" />
+              <point x="250.24999999999997" y="137.0" />
+              <point x="-38.25" y="15.5" />
+            </edge>
             <edge source="com.netflix.hystrix.HystrixCommand" target="com.netflix.hystrix.HystrixInvokableInfo">
               <point x="-55.5" y="-15.5" />
               <point x="213.49999999999994" y="223.0" />
@@ -1731,17 +1091,17 @@
               <point x="68.24999999999997" y="137.0" />
               <point x="-41.25" y="15.5" />
             </edge>
-            <edge source="com.netflix.hystrix.AbstractCommand" target="com.netflix.hystrix.HystrixObservable">
-              <point x="39.00000000000003" y="-15.5" />
-              <point x="239.49999999999997" y="137.0" />
-              <point x="250.24999999999997" y="137.0" />
-              <point x="-38.25" y="15.5" />
-            </edge>
             <edge source="com.netflix.hystrix.HystrixExecutable" target="com.netflix.hystrix.HystrixInvokable">
               <point x="0.0" y="-15.5" />
               <point x="460.0" y="56.0" />
               <point x="411.875" y="56.0" />
               <point x="35.75" y="15.5" />
+            </edge>
+            <edge source="com.netflix.hystrix.AbstractCommand" target="com.netflix.hystrix.HystrixInvokableInfo">
+              <point x="-38.99999999999997" y="-15.5" />
+              <point x="161.49999999999997" y="137.0" />
+              <point x="150.74999999999997" y="137.0" />
+              <point x="41.25" y="15.5" />
             </edge>
             <edge source="com.netflix.hystrix.HystrixCommand" target="com.netflix.hystrix.HystrixObservable">
               <point x="18.5" y="-15.5" />
@@ -1751,29 +1111,23 @@
               <point x="326.75" y="137.0" />
               <point x="38.25" y="15.5" />
             </edge>
-            <edge source="com.netflix.hystrix.AbstractCommand" target="com.netflix.hystrix.HystrixInvokableInfo">
-              <point x="-38.99999999999997" y="-15.5" />
-              <point x="161.49999999999997" y="137.0" />
-              <point x="150.74999999999997" y="137.0" />
-              <point x="41.25" y="15.5" />
-            </edge>
             <edge source="org.springframework.cloud.openfeign.support.FallbackCommand" target="com.netflix.hystrix.HystrixCommand">
               <point x="0.0" y="-15.5" />
               <point x="366.74999999999994" y="299.0" />
               <point x="305.99999999999994" y="299.0" />
               <point x="37.0" y="15.5" />
             </edge>
-            <edge source="com.netflix.hystrix.HystrixCommand" target="com.netflix.hystrix.AbstractCommand">
-              <point x="-18.5" y="-15.5" />
-              <point x="250.49999999999994" y="213.0" />
-              <point x="200.49999999999994" y="213.0" />
-              <point x="0.0" y="15.5" />
-            </edge>
             <edge source="com.netflix.hystrix.HystrixObservable" target="com.netflix.hystrix.HystrixInvokable">
               <point x="0.0" y="-15.5" />
               <point x="288.5" y="56.0" />
               <point x="340.375" y="56.0" />
               <point x="-35.75" y="15.5" />
+            </edge>
+            <edge source="com.netflix.hystrix.HystrixCommand" target="com.netflix.hystrix.AbstractCommand">
+              <point x="-18.5" y="-15.5" />
+              <point x="250.49999999999994" y="213.0" />
+              <point x="200.49999999999994" y="213.0" />
+              <point x="0.0" y="15.5" />
             </edge>
             <edge source="com.netflix.hystrix.contrib.javanica.command.BatchHystrixCommand" target="com.netflix.hystrix.contrib.javanica.command.AbstractHystrixCommand">
               <point x="0.0" y="-15.5" />
@@ -1794,42 +1148,63 @@
               <point x="-37.0" y="15.5" />
             </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="-124.5" y="225.0" />
-          <SelectedNodes />
+          <settings layout="Hierarchic Group" zoom="0.8648648648648649" x="268.0" y="218.0" />
+          <SelectedNodes>
+            <node>com.netflix.hystrix.contrib.javanica.command.GenericCommand</node>
+          </SelectedNodes>
           <Categories />
           <SCOPE>All</SCOPE>
           <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/hystrix/hystrix-javanica/1.5.18/hystrix-javanica-1.5.18.jar!/com/netflix/hystrix/contrib/javanica/command/GenericCommand.class">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_162/src.zip!/java/lang/Object.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="43">
-          <caret line="17" column="66" selection-start-line="17" selection-start-column="66" selection-end-line="17" selection-end-column="66" />
+        <state relative-caret-position="170">
+          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/hystrix/hystrix-javanica/1.5.18/hystrix-javanica-1.5.18.jar!/com/netflix/hystrix/contrib/javanica/aop/aspectj/HystrixCommandAspect.class">
+    <entry file="file://$PROJECT_DIR$/spring-cloud-user-service-8081/user-service-provider/src/main/java/com/springcloud/controller/HystrixCommandController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="49">
-          <caret line="70" column="30" lean-forward="true" selection-start-line="70" selection-start-column="30" selection-end-line="70" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-user-service-8081/user-service-provider/src/main/java/com/springcloud/customHystrix/service/HystrixCommanService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+        <state relative-caret-position="330">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-user-service-8081/user-service-provider/src/main/java/com/springcloud/controller/GPHystrixController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#764#765#0" expanded="true" />
+            <element signature="e#795#796#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-user-service-8081/user-service-provider/src/main/java/com/springcloud/userserviceprovider/UserServiceProviderApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-user-service-8081/user-service-provider/src/main/java/com/springcloud/customHystrix/hystrix/GPHystrixCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/spring-cloud-user-service-8081/user-service-provider/src/main/java/com/springcloud/rxjava/RxJavaDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="24" column="13" lean-forward="true" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        <state relative-caret-position="418">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1036#1037#0" expanded="true" />
@@ -1839,6 +1214,246 @@
             <element signature="e#1324#1325#0" expanded="true" />
             <element signature="e#1398#1399#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/hystrix/hystrix-core/1.5.18/hystrix-core-1.5.18.jar!/com/netflix/hystrix/HystrixCommand.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1144">
+          <caret line="71" column="64" selection-start-line="71" selection-start-column="64" selection-end-line="71" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/hystrix/hystrix-javanica/1.5.18/hystrix-javanica-1.5.18.jar!/com/netflix/hystrix/contrib/javanica/command/GenericCommand.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="17" column="66" selection-start-line="17" selection-start-column="66" selection-end-line="17" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-config-server-9091/src/main/java/com/springcloud/springcloudconfigserver/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="62" column="19" selection-start-line="62" selection-start-column="19" selection-end-line="62" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-gateway-8080/spring-cloud-gateway-8080.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-config-server-9091/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="29" column="37" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-user-service-8081/user-service-provider/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1061">
+          <caret line="53" column="39" selection-start-line="53" selection-start-column="39" selection-end-line="53" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-user-service-8081/user-service-provider/src/main/java/com/springcloud/customHystrix/hystrix/GPHystrixCommandAspect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="32" column="17" lean-forward="true" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-user-service-8081/user-service-provider/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-393">
+          <caret line="16" column="39" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-user-service-8081/user-service-provider/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" selection-start-line="6" selection-end-line="9" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-order-serivce-8082/order-service-api/src/main/java/com/springcloud/clients/OrderServiceFeignClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-order-serivce-8082/order-service-api/src/main/java/com/springcloud/OrderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="15" column="24" lean-forward="true" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-gateway-core/2.2.3.RELEASE/spring-cloud-gateway-core-2.2.3.RELEASE.jar!/org/springframework/cloud/gateway/handler/predicate/CookieRoutePredicateFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="32" column="38" lean-forward="true" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-gateway-core/2.2.3.RELEASE/spring-cloud-gateway-core-2.2.3.RELEASE.jar!/org/springframework/cloud/gateway/filter/GatewayFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-gateway-8080/src/main/java/com/springcloud/custom/GpDefineGatewayFilterFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="32" column="35" lean-forward="true" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#548#549#0" expanded="true" />
+            <element signature="e#571#572#0" expanded="true" />
+            <element signature="e#788#789#0" expanded="true" />
+            <element signature="e#815#816#0" expanded="true" />
+            <element signature="e#743#744#0" expanded="true" />
+            <element signature="e#778#779#0" expanded="true" />
+            <element signature="e#822#823#0" expanded="true" />
+            <element signature="e#862#863#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-gateway-8080/src/main/java/com/springcloud/custom/AuthRoutePredicateFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="34" column="40" lean-forward="true" selection-start-line="34" selection-start-column="40" selection-end-line="34" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#495#496#0" expanded="true" />
+            <element signature="e#529#530#0" expanded="true" />
+            <element signature="e#746#747#0" expanded="true" />
+            <element signature="e#802#803#0" expanded="true" />
+            <element signature="e#850#851#0" expanded="true" />
+            <element signature="e#885#886#0" expanded="true" />
+            <element signature="e#929#930#0" expanded="true" />
+            <element signature="e#969#970#0" expanded="true" />
+            <element signature="e#1005#1006#0" expanded="true" />
+            <element signature="e#1041#1042#0" expanded="true" />
+            <element signature="e#1087#1088#0" expanded="true" />
+            <element signature="e#1129#1130#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-order-serivce-8082/order-service-provider/src/main/java/com/springcloud/orderserviceprovider/OrderServiceProviderApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+          <folding>
+            <element signature="e#459#460#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-order-serivce-8082/order-service-provider/src/main/java/com/springcloud/orderserviceprovider/OrederServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-order-serivce-8082/order-service-provider/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-gateway-8080/src/main/java/com/springcloud/custom/IpAddressKeyResolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="15" column="95" selection-start-line="15" selection-start-column="95" selection-end-line="15" selection-end-column="95" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-gateway-core/2.2.3.RELEASE/spring-cloud-gateway-core-2.2.3.RELEASE.jar!/org/springframework/cloud/gateway/route/InMemoryRouteDefinitionRepository.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-gateway-core/2.2.3.RELEASE/spring-cloud-gateway-core-2.2.3.RELEASE.jar!/org/springframework/cloud/gateway/route/RouteDefinitionWriter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-gateway-core/2.2.3.RELEASE/spring-cloud-gateway-core-2.2.3.RELEASE.jar!/org/springframework/cloud/gateway/actuate/GatewayControllerEndpoint.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="32" column="66" selection-start-line="32" selection-start-column="66" selection-end-line="32" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-gateway-core/2.2.3.RELEASE/spring-cloud-gateway-core-2.2.3.RELEASE.jar!/org/springframework/cloud/gateway/actuate/AbstractGatewayControllerEndpoint.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="43" column="32" selection-start-line="43" selection-start-column="32" selection-end-line="43" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-gateway-8080/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="25" column="25" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-gateway-8080/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="37" column="8" selection-start-line="37" selection-start-column="8" selection-end-line="40" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-eureka-server-9090/src/main/java/com/springcloud/springcloudeurekaserver9090/SpringCloudEurekaServer9090Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-config-server-9091/src/main/java/com/springcloud/springcloudconfigserver/SpringCloudConfigServer9091Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-gateway-8080/src/main/java/com/springcloud/custom/RedisRouteDefinitionRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="25" column="56" lean-forward="true" selection-start-line="25" selection-start-column="56" selection-end-line="25" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-gateway-8080/src/main/java/com/springcloud/springcloudgateway8080/SpringCloudGateway8080Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="8" column="48" lean-forward="true" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
         </state>
       </provider>
     </entry>
@@ -1897,7 +1512,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>order-service-api</last-edited>
+          <last-edited>user-service-provider</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
