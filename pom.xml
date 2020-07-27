@@ -27,7 +27,6 @@
     <module>spring-cloud-user-service-8081</module>
     <module>spring-cloud-order-serivce-8082</module>
     <module>spring-cloud-hystrix-dashboard-9092</module>
-    <module>spring-cloud-gateway-8080</module>
   </modules>
 
   <dependencies>
