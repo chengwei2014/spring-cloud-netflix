@@ -8,10 +8,20 @@ spring:
 #  cloud:
 #    bus:
 #      enabled: true
+  sleuth:
+    sampler:
+      probability: 1.0
+  zipkin:
+    base-url: http://localhost:9411/
+
 server:
   port: 8082
+
 management:
   endpoints:
     web:
       exposure:
         include: refresh
+
+mybatis:
+  type-aliases-package: com.springcloud.orderserviceprovider.mapper.entitys

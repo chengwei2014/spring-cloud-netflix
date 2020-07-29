@@ -15,6 +15,8 @@
 
   <properties>
     <java.version>1.8</java.version>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     <spring-boot.version>2.3.0.RELEASE</spring-boot.version>
@@ -28,6 +30,8 @@
     <module>spring-cloud-order-serivce-8082</module>
     <module>spring-cloud-hystrix-dashboard-9092</module>
     <module>spring-cloud-gateway-8080</module>
+      <module>gupao-mall-commons</module>
+    <module>gupao-mall-goods-service-8083</module>
   </modules>
 
   <dependencies>

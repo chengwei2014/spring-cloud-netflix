@@ -2,10 +2,14 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="goods-service-api" />
+        <module name="goods-service-provider" />
+        <module name="gupao-core-tools" />
         <module name="order-service-api" />
         <module name="order-service-provider" />
         <module name="spring-cloud-config-server-9091" />
@@ -17,11 +21,12 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
-      <module name="spring-cloud-user-service-8081" target="1.7" />
+      <module name="spring-cloud-user-service-8081" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="goods-service-provider" options="" />
       <module name="spring-cloud-gateway-8080" options="" />
       <module name="spring-cloud-hystrix-dashboard-9092" options="" />
     </option>

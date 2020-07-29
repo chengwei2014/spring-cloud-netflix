@@ -1,0 +1,4 @@
+com\springcloud\vo\ItemDetailVo.class
+com\springcloud\App.class
+com\springcloud\clients\IGoodsFeignClient.class
+com\springcloud\dto\ItemStockDto.class
